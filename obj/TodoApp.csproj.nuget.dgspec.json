@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\TodoApp\\TodoApp.csproj": {}
+    "D:\\Projects\\TodoWebApi\\TodoApp.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\TodoApp\\TodoApp.csproj": {
+    "D:\\Projects\\TodoWebApi\\TodoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\TodoApp\\TodoApp.csproj",
+        "projectUniqueName": "D:\\Projects\\TodoWebApi\\TodoApp.csproj",
         "projectName": "TodoApp",
-        "projectPath": "D:\\Projects\\TodoApp\\TodoApp.csproj",
+        "projectPath": "D:\\Projects\\TodoWebApi\\TodoApp.csproj",
         "packagesPath": "C:\\Users\\Rebwa\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\TodoApp\\obj\\",
+        "outputPath": "D:\\Projects\\TodoWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rebwa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -81,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

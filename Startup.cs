@@ -38,6 +38,9 @@ namespace TodoApp
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "TodoApp", Version = "v1" });
             });
+            services.AddCors(options=>{
+                options.AddPolicy("Open",builder=>builder.AllowAnyOrigin().AllowAnyHeader());
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -56,6 +59,7 @@ namespace TodoApp
 
             app.UseAuthorization();
             app.UseAuthentication();
+            app.UseCors("Open");
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
